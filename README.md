@@ -25,3 +25,13 @@ Project ini mensimulasikan REST API sederhana untuk manajemen stok barang menggu
    ```bash
    git clone [https://github.com/ianpecandumiayam/backend-toko-spring-boot.git](https://github.com/ianpecandumiayam/backend-toko-spring-boot.git)
    cd backend-toko-spring-boot
+2. **Jalankan Aplikasi Menggunakan Gradle Wrapper (tidak perlu install Gradle manual):**
+   ```bash
+   ./gradlew bootRun
+3. **Test API Buka terminal baru dan jalankan:**
+   # Cek kesehatan server
+   ```bash
+   curl http://localhost:8080/api/halo
+4. **Ambil data stok (Database):**
+   ```bash
+   curl http://localhost:8080/api/stok
