@@ -32,6 +32,9 @@ Project ini mensimulasikan REST API sederhana untuk manajemen stok barang menggu
    # Cek kesehatan server
    ```bash
    curl http://localhost:8080/api/halo
-4. **Ambil data stok (Database):**
+   ```
+   # Ambil data stok (Database)
    ```bash
    curl http://localhost:8080/api/stok
+   ```
+**Dibuat oleh:** ianpecandumiayam
